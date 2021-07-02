@@ -1,0 +1,255 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.main_landing {
+    background-image: url(./assets/bg1.png);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 20px;
+    padding: 20px 0px;
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+
+#web_logo {
+    color: red;
+    font-family: 'Raleway', sans-serif;
+}
+
+#web_logo span {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+#open_icon {
+    position: relative;
+    display: block;
+    height: auto;
+    width: 30px;
+}
+
+#close_icon {
+    position: relative;
+    display: none;
+    height: auto;
+    width: 30px;
+}
+
+/* NAVBAR OPEN INTERFACE*/
+
+#nav_open {
+    display: none;
+    margin-top: 100px;
+}
+
+#nav_open ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#nav_open ul li {
+    list-style: none;
+    margin: 10px;
+    font-size: 30px;
+}
+
+#nav_open ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+#nav_open ul li a span {
+    color: red;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* INTRO TEXT */
+
+.intro-text {
+    margin: 80px 0px 0px 20px;
+}
+
+.intro-text h1 {
+    font-size: 50px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+.intro-text h1 span {
+    color: red;
+    font-family: 'Raleway', sans-serif;
+}
+
+.intro-text button {
+    margin: 20px 0px 60px 0px;
+    padding: 10px 20px;
+    color: red;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    border: 2px solid red;
+    outline: none;
+    background-color: rgba(22, 2, 2, 0.3);
+}
+
+/* HORIZONTAL LINE FOR DIVISION*/
+
+#hr1 {
+    /* color: red; */
+    width: 300px;
+    margin: 0px auto;
+    opacity: 0.5;
+    color: white;
+    background: white;
+}
+
+/* FEATURES SECTION*/
+
+#features {
+    background: url(./assets/bg2.png);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+#features h1 {
+    padding: 50px 0px;
+    text-align: center;
+    color: red;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+#features h1 span {
+    color: white;
+}
+
+#fea-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    min-width: 200px;
+    margin: 10px;
+    padding: 30px;
+    background-color: rgba(146, 105, 105, 0.1);
+    border-radius: 10px;
+}
+
+.items img {
+    width: 100px;
+    height: auto;
+}
+
+.items h3 {
+    color: red;
+    padding: 10px;
+}
+
+.items h3 span {
+    color: white;
+}
+
+.items p {
+    font-size: 12px;
+    color: white;
+    opacity: 0.5;
+    text-align: center;
+}
+
+/* HORIZONTAL LINE FOR DIVISION*/
+
+.hr2 {
+    width: 300px;
+    margin: 50px auto 0px auto;
+    opacity: 0.5;
+    color: white;
+    background: white;
+}
+
+/* TALK TO US SECTION*/
+
+#talktous {
+    background: url(./assets/bg3.png);
+    background-size: cover;
+    background-repeat: repeat;
+    /* height: 1000px; */
+}
+
+#talktous h1 {
+    padding: 50px 0px 20px 0px;
+    text-align: center;
+    color: red;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+#talktous h1 span {
+    color: white;
+}
+#ttsdiv{
+    max-width: fit-content;
+    margin: 0px auto;
+}
+.tts-table{
+    margin: 40px;
+    min-width: 250px;
+}
+
+.tts-table img{
+    width: 60px;
+    height: auto;
+    margin: 10px auto;
+}
+.tts-table h3{
+    color: red;
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+.tts-table span{
+    color: white;
+}
+.tts-table h5 , address{
+    font-size: 12px;
+    color: white;
+    opacity: 0.5;
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+
+}
+/* FOOTER */
+#footer{
+    background: url(./assets/bg3.png);
+    min-height: fit-content;
+}
+#footer h5{
+    color: red;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+#footer h5 span{
+    font-family: 'Reggae One', cursive;
+    color: white;
+}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digitel Gem</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&family=Reggae+One&display=swap" rel="stylesheet">
+    <!-- JAVASCRIPT-->
+    <script type="text/javascript">
+        function menu_open() {
+            document.getElementById('nav_open').style.display = 'block';
+        }
+        function icon_change() {
+            document.getElementById('close_icon').style.display = "block";
+        }
+        function icon_close() {
+            document.getElementById('open_icon').style.display = "none";
+        }
+        function menu_close() {
+            document.getElementById('nav_open').style.display = "none";
+        }
+        function icon_change_re() {
+            document.getElementById('close_icon').style.display = "none";
+        }
+        function icon_vi() {
+            document.getElementById('open_icon').style.display = "block";
+        }
+    </script>
+</head>
+
+<body>
+    <div class="main_landing">
+        <div class="landing">
+            <div class="navbar">
+                <h1 class="nav-items" id="web_logo"><span>Digitel</span> Gem</h1>
+                <img src="./assets/menu_icon.png" alt="" id="open_icon" class="nav-items"
+                    onclick="menu_open(); icon_change(); icon_close();">
+                <img src="./assets/close.png" alt="" id="close_icon"
+                    onclick="menu_close(); icon_change_re(); icon_vi();">
+            </div>
+        </div>
+        <div id="nav_open">
+            <ul>
+                <li><a href="">Ho<span>me</span></a></li>
+                <li><a href="">About <span>us</span></a></li>
+                <li><a href="">Cont<span>act</span></a></li>
+                <li><a href="">Proj<span>ects</span></a></li>
+                <li><a href="">Clie<span>nts</span></a></li>
+            </ul>
+        </div>
+        <div class="intro-text">
+            <h1>Bring your <br>
+                business into <br>
+                the <span>Digitel World.</span></h1>
+            <button>Call Now</button>
+        </div>
+        <hr id="hr1">
+    </div>
+    <div id="features">
+        <h1>What <span>We</span> Do</h1>
+        <div id="fea-items">
+            <div class="items" id="item1">
+                <img src="./assets/monitor.png" alt="">
+                <h3>UI/<span>UX</span></h3>
+                <p>Landing Pages, User Flow,<br> Wireframing,
+                    Prototyping,<br> Mobile App Design, Web App</p>
+            </div>
+            <div class="items" id="item2">
+                <img src="./assets/quality.png" alt="">
+                <h3>Bran<span>ding</span></h3>
+                <p>Visual Identity, Stationary Kit,<br> Marketing
+                    and make your <br> business more valuable</p>
+            </div>
+            <div class="items" id="item3">
+                <img src="./assets/framework.png" alt="">
+                <h3>Develop<span>ment</span></h3>
+                <p>HTML/CSS, JavaScript Animation,<br>
+                    Design, Responsive Website</p>
+            </div>
+            <div class="items" id="item4">
+                <img src="./assets/logo.png" alt="">
+                <h3>Icon/<span>logo</span></h3>
+                <p>logo design,icon creating,<br>
+                    product markup and transtions</p>
+            </div>
+            <hr class="hr2">
+        </div>
+    </div>
+    <div id="talktous">
+        <h1>Talk T<span>o Us</span></h1>
+        <div id="ttsdiv">
+            <table class="tts-table" id="table1">
+                <tr>
+                    <td><img src="./assets/call.png" alt=""></td>
+                    <td><h3>Call <span>Now</span></h3><h5>+ 1 1800 123456( 10 to 5 pm)</h5></td>
+                </tr>
+            </table>
+            <table class="tts-table" id="table2">
+                <tr>
+                    <td><img src="./assets/email.png" alt=""></td>
+                    <td><h3>Mail <span>Us</span></h3><h5>digitelgem@email.com</h5></td>
+                </tr>
+            </table>
+            <table class="tts-table" id="table3">
+                <tr>
+                    <td><img src="./assets/address.png" alt=""></td>
+                    <td><h3>Add<span>ress</span></h3><address> office 21,Green Avenue,<br> Gujarat,india-363310</address></td>
+                </tr>
+            </table>
+            <hr class="hr2">
+        </div>
+    </div>
+    <div id="footer">
+            <h5>Copyright <span>@ 2021</span> | Designed by <span>Aakash Desai</span></h5>
+    </div>
+
+
+</body>
+
+</html>
